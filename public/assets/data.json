@@ -202,7 +202,7 @@
 	{ "number": "C1", "count": 0, "difficulty": 0, "question": "Explain how this works in JavaScript" },
 	{ "number": "C2", "count": 0, "difficulty": 0, "question": "What's the difference between .call and .apply?" },
 	{ "number": "C3", "count": 0, "difficulty": 0, "question": "Explain Function.prototype.bind." },
-	{ "number": "C4", "count": 0, "difficulty": 1, "question": "Explain event delegation" },
+	{ "number": "C4", "count": 0, "difficulty": 2, "question": "Explain event delegation" },
 	{
 		"number": "C5",
 		"count": 0,
@@ -287,7 +287,7 @@
 		"difficulty": 1,
 		"question": "Explain how JSONP(JSON Padding) works (and how it's not really Ajax)."
 	},
-	{ "number": "C24", "count": 0, "difficulty": 0, "question": "Describe event bubbling." },
+	{ "number": "C24", "count": 0, "difficulty": 1, "question": "Describe event bubbling." },
 	{
 		"number": "C25",
 		"count": 0,
