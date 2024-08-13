@@ -27,7 +27,7 @@ const Content = () => {
 				return item;
 			});
 		});
-
+		localStorage.setItem('data', JSON.stringify(list));
 		await fetch('/api/file', {
 			method: 'POST',
 			headers: {
