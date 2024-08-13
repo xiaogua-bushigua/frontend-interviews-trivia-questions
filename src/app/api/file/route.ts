@@ -3,10 +3,17 @@ import path from 'path';
 import { List } from '@/app/Content';
 import { NextResponse, NextRequest } from 'next/server';
 
+function getFilePath(fileName: string): string {
+	return path.join(process.cwd(), 'public', 'assets', fileName);
+}
+
+const filePath = getFilePath('data.json');
+
 function readJsonFile(filePath: string): Promise<List[]> {
 	return new Promise((resolve, reject) => {
 		fs.readFile(filePath, 'utf8', (err, data) => {
 			if (err) {
+				console.log('readJsonFile', err);
 				return reject(err);
 			}
 			try {
@@ -23,7 +30,7 @@ function writeJsonFile(data: List[], filePath: string) {
 	const jsonData = JSON.stringify(data, null, 2);
 	fs.writeFile(filePath, jsonData, 'utf8', (err) => {
 		if (err) {
-			console.log(err);
+			console.log("writeJsonFile" ,err);
 		}
 	});
 }
@@ -31,7 +38,7 @@ function writeJsonFile(data: List[], filePath: string) {
 export const GET = async () => {
 	const limit = 12;
 	try {
-		const items = await readJsonFile('./data.json');
+		const items = await readJsonFile(filePath);
 		let selectedItems: List[] = [];
 		let selectedNumbers: string[] = [];
 		let writtenItems: List[] = [];
@@ -51,7 +58,7 @@ export const GET = async () => {
 			return item;
 		});
 
-		writeJsonFile(writtenItems, './data.json');
+		writeJsonFile(writtenItems, filePath);
 
 		return NextResponse.json({ data: selectedItems, status: 200 }, { status: 200 });
 	} catch (error) {
@@ -62,7 +69,7 @@ export const GET = async () => {
 export const POST = async (req: NextRequest) => {
 	const { number } = await req.json();
 	try {
-		const items = await readJsonFile('./data.json');
+		const items = await readJsonFile(filePath);
 		let writtenItems: List[] = [];
 
 		writtenItems = items.map((item: List) => {
@@ -72,7 +79,7 @@ export const POST = async (req: NextRequest) => {
 			return item;
 		});
 
-		writeJsonFile(writtenItems, './data.json');
+		writeJsonFile(writtenItems, filePath);
 
 		return NextResponse.json(
 			{ data: writtenItems.filter((item) => item.number === number), status: 200 },
