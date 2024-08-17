@@ -20,14 +20,15 @@ const Content = () => {
 	};
 	const handleDifficulty = async (number: string) => {
 		setList((prevList) => {
-			return prevList.map((item) => {
+			const newList = prevList.map((item) => {
 				if (item.number === number) {
 					return { ...item, difficulty: item.difficulty + 1 };
 				}
 				return item;
 			});
+			localStorage.setItem('data', JSON.stringify(newList));
+			return newList;
 		});
-		localStorage.setItem('data', JSON.stringify(list));
 		await fetch('/api/file', {
 			method: 'POST',
 			headers: {
