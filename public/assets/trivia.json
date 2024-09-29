@@ -1,0 +1,578 @@
+[
+  {
+    "number": "A1",
+    "count": 6,
+    "difficulty": 0,
+    "question": "What does a DOCTYPE do?"
+  },
+  {
+    "number": "A2",
+    "count": 3,
+    "difficulty": 0,
+    "question": "How do you serve a page in multiple languages?"
+  },
+  {
+    "number": "A3",
+    "count": 9,
+    "difficulty": 0,
+    "question": "What kind of things must you be wary of when designing or developing for multilingual sites? "
+  },
+  {
+    "number": "A4",
+    "count": 4,
+    "difficulty": 0,
+    "question": "What are data- attributes good for?"
+  },
+  {
+    "number": "A5",
+    "count": 3,
+    "difficulty": 0,
+    "question": "Consider HTML5 as an open web platform. What are the building blocks of HTML5?"
+  },
+  {
+    "number": "A6",
+    "count": 2,
+    "difficulty": 1,
+    "question": "Describe the difference between cookie, localStorage, sessionStorage."
+  },
+  {
+    "number": "A7",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Describe the difference between <script>, <script async> and <script defer>."
+  },
+  {
+    "number": "A8",
+    "count": 2,
+    "difficulty": 1,
+    "question": "Why is it generally a good idea to position CSS <link> between <head></head> and JS <script> just before </body>? Do you know any exceptions?"
+  },
+  {
+    "number": "A9",
+    "count": 2,
+    "difficulty": 0,
+    "question": "Why would you use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.  "
+  },
+  {
+    "number": "A10",
+    "count": 6,
+    "difficulty": 1,
+    "question": "What is the difference between canvas and SVG?"
+  },
+  {
+    "number": "A11",
+    "count": 5,
+    "difficulty": 0,
+    "question": "What is progressive rendering?"
+  },
+  {
+    "number": "A12",
+    "count": 4,
+    "difficulty": 0,
+    "question": "What are empty elements in HTML?"
+  },
+  {
+    "number": "B1",
+    "count": 4,
+    "difficulty": 2,
+    "question": "What is CSS selector specificity and how does it work?"
+  },
+  {
+    "number": "B2",
+    "count": 8,
+    "difficulty": 0,
+    "question": "What's the difference between 'resetting' and 'normalizing' CSS? Which would you choose, and why?"
+  },
+  {
+    "number": "B3",
+    "count": 5,
+    "difficulty": 3,
+    "question": "Describe float and how it works."
+  },
+  {
+    "number": "B4",
+    "count": 5,
+    "difficulty": 1,
+    "question": "Describe z-index and how stacking context is formed."
+  },
+  {
+    "number": "B5",
+    "count": 6,
+    "difficulty": 2,
+    "question": "Describe Block Formatting Context (BFC) and how it works."
+  },
+  {
+    "number": "B6",
+    "count": 3,
+    "difficulty": 0,
+    "question": "What are the various clearing float techniques and which is appropriate for what context?"
+  },
+  {
+    "number": "B7",
+    "count": 3,
+    "difficulty": 1,
+    "question": "Explain CSS sprites, and how you would implement them."
+  },
+  {
+    "number": "B8",
+    "count": 6,
+    "difficulty": 1,
+    "question": "How would you approach fixing browser-specific styling issues? "
+  },
+  {
+    "number": "B9",
+    "count": 4,
+    "difficulty": 1,
+    "question": "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?"
+  },
+  {
+    "number": "B10",
+    "count": 9,
+    "difficulty": 0,
+    "question": "What are the different ways to visually hide content (and make it available only for screen readers)?"
+  },
+  {
+    "number": "B11",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Have you ever used a grid system, and if so, what do you prefer?"
+  },
+  {
+    "number": "B12",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Have you used or implemented media queries or mobile-specific layouts/CSS?"
+  },
+  {
+    "number": "B13",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Can you give an example of an @media property other than screen?"
+  },
+  {
+    "number": "B14",
+    "count": 4,
+    "difficulty": 0,
+    "question": "What are the advantages/disadvantages of using CSS preprocessors?"
+  },
+  {
+    "number": "B15",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Are you familiar with styling SVG?"
+  },
+  {
+    "number": "B16",
+    "count": 10,
+    "difficulty": 0,
+    "question": "How would you implement a web design that uses non-standard fonts?"
+  },
+  {
+    "number": "B17",
+    "count": 6,
+    "difficulty": 0,
+    "question": "Explain how a browser determines what elements match a CSS selector. "
+  },
+  {
+    "number": "B18",
+    "count": 6,
+    "difficulty": 1,
+    "question": "Describe pseudo-elements and discuss what they are used for."
+  },
+  {
+    "number": "B19",
+    "count": 3,
+    "difficulty": 3,
+    "question": "Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models."
+  },
+  {
+    "number": "B20",
+    "count": 3,
+    "difficulty": 1,
+    "question": "What does { box-sizing: border-box; } do? What are its advantages?"
+  },
+  {
+    "number": "B21",
+    "count": 5,
+    "difficulty": 0,
+    "question": "What is the CSS display property and can you give a few examples of its use?"
+  },
+  {
+    "number": "B22",
+    "count": 4,
+    "difficulty": 1,
+    "question": "What's the difference between block, inline and inline-block?"
+  },
+  {
+    "number": "B23",
+    "count": 8,
+    "difficulty": 0,
+    "question": "What's the difference between a relative, fixed, absolute and static positioned element?"
+  },
+  {
+    "number": "B24",
+    "count": 6,
+    "difficulty": 0,
+    "question": "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?"
+  },
+  {
+    "number": "B25",
+    "count": 3,
+    "difficulty": 0,
+    "question": "Have you played around with the new CSS Flexbox or Grid specs?"
+  },
+  {
+    "number": "B26",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?"
+  },
+  {
+    "number": "B27",
+    "count": 8,
+    "difficulty": 0,
+    "question": "How is responsive design different from adaptive design?"
+  },
+  {
+    "number": "B28",
+    "count": 3,
+    "difficulty": 0,
+    "question": "Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?"
+  },
+  {
+    "number": "C1",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Explain how this works in JavaScript"
+  },
+  {
+    "number": "C2",
+    "count": 8,
+    "difficulty": 0,
+    "question": "What's the difference between .call and .apply?"
+  },
+  {
+    "number": "C3",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Explain Function.prototype.bind."
+  },
+  {
+    "number": "C4",
+    "count": 8,
+    "difficulty": 1,
+    "question": "Explain event delegation"
+  },
+  {
+    "number": "C5",
+    "count": 9,
+    "difficulty": 0,
+    "question": "What are the differences between variables created using let, var or const?"
+  },
+  {
+    "number": "C6",
+    "count": 7,
+    "difficulty": 0,
+    "question": "What changes have occurred in ES6?"
+  },
+  {
+    "number": "C7",
+    "count": 3,
+    "difficulty": 0,
+    "question": "Can you give an example of one of the ways that working with this has changed in ES6?"
+  },
+  {
+    "number": "C8",
+    "count": 3,
+    "difficulty": 0,
+    "question": "Explain how prototypal inheritance works"
+  },
+  {
+    "number": "C9",
+    "count": 7,
+    "difficulty": 0,
+    "question": "What do you think of AMD (Asynchronous Module Definition) vs CommonJS?"
+  },
+  {
+    "number": "C10",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Explain the differences between CommonJS modules and ES modules"
+  },
+  {
+    "number": "C11",
+    "count": 3,
+    "difficulty": 1,
+    "question": "What is a closure, and how/why would you use one?"
+  },
+  {
+    "number": "C12",
+    "count": 7,
+    "difficulty": 0,
+    "question": "Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?"
+  },
+  {
+    "number": "C13",
+    "count": 6,
+    "difficulty": 0,
+    "question": "Explain why the following doesn't work as an IIFE(Immediately Invoked Function Expression): function foo(){ }();. What needs to be changed to properly make it an IIFE?"
+  },
+  {
+    "number": "C14",
+    "count": 3,
+    "difficulty": 0,
+    "question": "What's a typical use case for anonymous functions?"
+  },
+  {
+    "number": "C15",
+    "count": 2,
+    "difficulty": 0,
+    "question": "How do you organize your code? (module pattern, classical inheritance?)"
+  },
+  {
+    "number": "C16",
+    "count": 3,
+    "difficulty": 0,
+    "question": "What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?"
+  },
+  {
+    "number": "C17",
+    "count": 5,
+    "difficulty": 1,
+    "question": "What's the difference between host objects and native objects?"
+  },
+  {
+    "number": "C18",
+    "count": 5,
+    "difficulty": 0,
+    "question": "When would you use document.write()?"
+  },
+  {
+    "number": "C19",
+    "count": 2,
+    "difficulty": 0,
+    "question": "Difference between: function Person(){}, var person = Person(), and var person = new Person()?"
+  },
+  {
+    "number": "C20",
+    "count": 5,
+    "difficulty": 0,
+    "question": "What's the difference between feature detection, feature inference, and using the UA string?"
+  },
+  {
+    "number": "C21",
+    "count": 6,
+    "difficulty": 3,
+    "question": "Explain Ajax in as much detail as possible."
+  },
+  {
+    "number": "C22",
+    "count": 6,
+    "difficulty": 2,
+    "question": "What are the advantages and disadvantages of using Ajax?"
+  },
+  {
+    "number": "C23",
+    "count": 3,
+    "difficulty": 2,
+    "question": "Explain how JSONP(JSON Padding) works (and how it's not really Ajax)."
+  },
+  {
+    "number": "C24",
+    "count": 1,
+    "difficulty": 1,
+    "question": "Describe event bubbling."
+  },
+  {
+    "number": "C25",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Have you ever used JavaScript templating? If so, what libraries have you used?"
+  },
+  {
+    "number": "C26",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Explain 'hoisting'."
+  },
+  {
+    "number": "C27",
+    "count": 3,
+    "difficulty": 0,
+    "question": "What's the difference between an 'attribute' and a 'property'?"
+  },
+  {
+    "number": "C28",
+    "count": 9,
+    "difficulty": 3,
+    "question": "What is 'use strict';? What are the advantages and disadvantages to use it?"
+  },
+  {
+    "number": "C29",
+    "count": 6,
+    "difficulty": 1,
+    "question": "Why is extending built-in JavaScript objects not a good idea?"
+  },
+  {
+    "number": "C30",
+    "count": 6,
+    "difficulty": 1,
+    "question": "Difference between document load event and document DOMContentLoaded event?"
+  },
+  {
+    "number": "C31",
+    "count": 6,
+    "difficulty": 0,
+    "question": "What is the difference between == and ===?"
+  },
+  {
+    "number": "C32",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Explain the same-origin policy with regards to JavaScript."
+  },
+  {
+    "number": "C33",
+    "count": 3,
+    "difficulty": 5,
+    "question": "Explain what a single page app is."
+  },
+  {
+    "number": "C34",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Why is it called a Ternary expression, what does the word 'Ternary' indicate?"
+  },
+  {
+    "number": "C35",
+    "count": 5,
+    "difficulty": 0,
+    "question": "How to make a single page app SEO-friendly."
+  },
+  {
+    "number": "C36",
+    "count": 8,
+    "difficulty": 1,
+    "question": "What is the extent of your experience with Promises and/or their polyfills?"
+  },
+  {
+    "number": "C37",
+    "count": 4,
+    "difficulty": 0,
+    "question": "Create a for loop that iterates up to 100 while outputting 'fizz' at multiples of 3, 'buzz' at multiples of 5 and 'fizzbuzz' at multiples of 3 and 5."
+  },
+  {
+    "number": "C38",
+    "count": 8,
+    "difficulty": 1,
+    "question": "Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?"
+  },
+  {
+    "number": "C39",
+    "count": 5,
+    "difficulty": 1,
+    "question": "What are the pros and cons of using Promises instead of callbacks?"
+  },
+  {
+    "number": "C40",
+    "count": 4,
+    "difficulty": 0,
+    "question": "What tools and techniques do you use for debugging JavaScript code?"
+  },
+  {
+    "number": "C41",
+    "count": 7,
+    "difficulty": 0,
+    "question": "What language constructions do you use for iterating over object properties and array items?"
+  },
+  {
+    "number": "C42",
+    "count": 3,
+    "difficulty": 2,
+    "question": "What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?"
+  },
+  {
+    "number": "C43",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Explain the difference between mutable and immutable objects."
+  },
+  {
+    "number": "C44",
+    "count": 8,
+    "difficulty": 2,
+    "question": "How can you achieve immutability in your own code?"
+  },
+  {
+    "number": "C45",
+    "count": 4,
+    "difficulty": 0,
+    "question": "What is an example of an immutable object in JavaScript?"
+  },
+  {
+    "number": "C46",
+    "count": 7,
+    "difficulty": 5,
+    "question": "Explain the difference between synchronous and asynchronous functions."
+  },
+  {
+    "number": "C47",
+    "count": 4,
+    "difficulty": 1,
+    "question": "What are the differences between ES6 class and ES5 function constructors?"
+  },
+  {
+    "number": "C48",
+    "count": 5,
+    "difficulty": 0,
+    "question": "Can you give an example for destructuring an object or an array?"
+  },
+  {
+    "number": "C49",
+    "count": 7,
+    "difficulty": 3,
+    "question": "What is event loop? What is the difference between call stack and task queue?"
+  },
+  {
+    "number": "C50",
+    "count": 6,
+    "difficulty": 2,
+    "question": "How can you share code between files?"
+  },
+  {
+    "number": "C51",
+    "count": 3,
+    "difficulty": 4,
+    "question": "What advantage is there for using the arrow syntax for a method in a constructor?"
+  },
+  {
+    "number": "C52",
+    "count": 6,
+    "difficulty": 0,
+    "question": "Why might you want to create static class members?"
+  },
+  {
+    "number": "C53",
+    "count": 5,
+    "difficulty": 1,
+    "question": "What are the benefits of using spread syntax and how is it different from rest syntax?"
+  },
+  {
+    "number": "C54",
+    "count": 4,
+    "difficulty": 2,
+    "question": "Can you give an example of a curry function and why this syntax offers an advantage?"
+  },
+  {
+    "number": "C55",
+    "count": 3,
+    "difficulty": 0,
+    "question": "ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?"
+  },
+  {
+    "number": "C56",
+    "count": 3,
+    "difficulty": 1,
+    "question": "What is the definition of a higher-order function?"
+  }
+]

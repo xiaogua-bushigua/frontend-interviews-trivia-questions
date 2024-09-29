@@ -1,5 +1,8 @@
 'use client';
+
 import React, { useEffect, useState } from 'react';
+import { useContext } from 'react';
+import { MyContext } from './page';
 
 export interface List {
 	number: string;
@@ -10,15 +13,9 @@ export interface List {
 
 const Content = () => {
 	const [list, setList] = useState([] as Array<List>);
-	const handleGeneration = async () => {
-		const response = await fetch('/api/file');
-		const { data } = await response.json();
-		if (data && data.length) {
-			setList(data);
-			localStorage.setItem('data', JSON.stringify(data));
-		}
-	};
-	const handleDifficulty = async (number: string) => {
+	const { type, refreshCounter } = useContext(MyContext);
+
+	const handleDifficulty = async (number: string, type: string) => {
 		setList((prevList) => {
 			const newList = prevList.map((item) => {
 				if (item.number === number) {
@@ -26,7 +23,7 @@ const Content = () => {
 				}
 				return item;
 			});
-			localStorage.setItem('data', JSON.stringify(newList));
+			localStorage.setItem(type, JSON.stringify(newList));
 			return newList;
 		});
 		await fetch('/api/file', {
@@ -34,25 +31,30 @@ const Content = () => {
 			headers: {
 				'Content-Type': 'application/json',
 			},
-			body: JSON.stringify({ number }),
+			body: JSON.stringify({ number, type }),
 		});
 	};
 
+	const fetchData = async (type: string) => {
+		const response = await fetch(`/api/file?type=${type}`);
+		const { data } = await response.json();
+		if (data && data.length) {
+			setList(data);
+			localStorage.setItem(type, JSON.stringify(data));
+		}
+	};
+
 	useEffect(() => {
-		const data = localStorage.getItem('data');
+		const data = localStorage.getItem(type);
 		if (data) {
 			setList(JSON.parse(data));
+		} else {
+			fetchData(type);
 		}
-	}, []);
+	}, [type, refreshCounter]);
+
 	return (
-		<>
-			<button
-				onClick={handleGeneration}
-				className="bg-blue-500 inline-block hover:bg-blue-700 mb-2 text-white font-bold py-2 px-4 rounded w-32"
-			>
-				Generate
-			</button>
-			{list.length === 0 && <span>Click the button to start</span>}
+		<div>
 			<ul>
 				{list.map((item) => (
 					<li className="my-2" key={item.number}>
@@ -60,7 +62,7 @@ const Content = () => {
 							{item.number}
 						</span>
 						<button
-							onClick={() => handleDifficulty(item.number)}
+							onClick={() => handleDifficulty(item.number, type)}
 							className="bg-slate-500 text-sm hover:bg-slate-700 text-white font-bold py-2 px-4 rounded mr-2"
 						>
 							{'Difficulty: ' + item.difficulty}
@@ -70,7 +72,7 @@ const Content = () => {
 					</li>
 				))}
 			</ul>
-		</>
+		</div>
 	);
 };
 
