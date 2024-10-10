@@ -59,9 +59,9 @@ export const POST = async (req: NextRequest) => {
 };
 
 export const GET = async (req: NextRequest) => {
-  const url = new URL(req.url);
+	const url = new URL(req.url);
 	const type = url.searchParams.get('type');
-	const limit = type === 'react' ? 6 : 10;
+	const limit = url.searchParams.get('count') || "0";
 	try {
 		const filePath = getFilePath(type + '.json');
 		const items = await readJsonFile(filePath);
@@ -70,7 +70,7 @@ export const GET = async (req: NextRequest) => {
 		let writtenItems: List[] = [];
 		const availableIndices: number[] = Array.from({ length: items.length }, (_, i) => i);
 
-		while (selectedItems.length < limit && availableIndices.length > 0) {
+		while (selectedItems.length < Number(limit) && availableIndices.length > 0) {
 			const randomIndex = Math.floor(Math.random() * availableIndices.length);
 			const index = availableIndices.splice(randomIndex, 1)[0];
 			items[index].count += 1;

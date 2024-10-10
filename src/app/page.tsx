@@ -3,6 +3,11 @@
 import { createContext, useState } from 'react';
 import Content from './Content';
 
+const counts = {
+	trivia: 10,
+	react: 5,
+};
+
 type ContextType = {
 	type: string;
 	refreshCounter: number;
@@ -19,7 +24,7 @@ export default function Home() {
 
 	const handleRefresh = () => {
 		localStorage.removeItem(state.type);
-    setState({ ...state, refreshCounter: state.refreshCounter + 1 });
+		setState({ ...state, refreshCounter: state.refreshCounter + 1 });
 	};
 
 	return (
@@ -49,7 +54,7 @@ export default function Home() {
 				</button>
 			</header>
 			<MyContext.Provider value={state}>
-				<Content />
+				<Content counts={counts} />
 			</MyContext.Provider>
 		</main>
 	);

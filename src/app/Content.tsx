@@ -11,7 +11,7 @@ export interface List {
 	count: number;
 }
 
-const Content = () => {
+const Content = ({ counts }: { counts: Record<string, number> }) => {
 	const [list, setList] = useState([] as Array<List>);
 	const { type, refreshCounter } = useContext(MyContext);
 
@@ -36,7 +36,7 @@ const Content = () => {
 	};
 
 	const fetchData = async (type: string) => {
-		const response = await fetch(`/api/file?type=${type}`);
+		const response = await fetch(`/api/file?type=${type}&count=${counts[type]}`);
 		const { data } = await response.json();
 		if (data && data.length) {
 			setList(data);
@@ -63,11 +63,13 @@ const Content = () => {
 						</span>
 						<button
 							onClick={() => handleDifficulty(item.number, type)}
-							className="bg-slate-500 text-sm hover:bg-slate-700 text-white font-bold py-2 px-4 rounded mr-2"
+							className="bg-slate-500 text-sm hover:bg-slate-700 w-32 text-white font-bold py-2 rounded mr-2"
 						>
 							{'Difficulty: ' + item.difficulty}
 						</button>
-						<span className="mr-2 p-2 text-sm rounded-md bg-slate-300">{'Frequency: ' + item.count}</span>
+						<span className="mr-2 p-2 text-sm rounded-md w-24 bg-slate-300">
+							{'Frequency: ' + item.count}
+						</span>
 						<span>{item.question}</span>
 					</li>
 				))}
