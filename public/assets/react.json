@@ -7,19 +7,19 @@
   },
   {
     "number": "E2",
-    "count": 0,
+    "count": 1,
     "difficulty": 0,
     "question": "What are you most excited about doing in ReactJS?"
   },
   {
     "number": "E3",
-    "count": 1,
+    "count": 3,
     "difficulty": 1,
     "question": "What is ReactJS?"
   },
   {
     "number": "E4",
-    "count": 1,
+    "count": 2,
     "difficulty": 1,
     "question": "Explain the MVC architecture."
   },
@@ -37,7 +37,7 @@
   },
   {
     "number": "E7",
-    "count": 4,
+    "count": 5,
     "difficulty": 0,
     "question": "What is JSX?"
   },
@@ -49,13 +49,13 @@
   },
   {
     "number": "E9",
-    "count": 3,
+    "count": 4,
     "difficulty": 0,
     "question": "What is the virtual DOM?"
   },
   {
     "number": "E10",
-    "count": 1,
+    "count": 2,
     "difficulty": 1,
     "question": "Why use React instead of other frameworks?/ What’s the advantages of React?"
   },
@@ -73,7 +73,7 @@
   },
   {
     "number": "E13",
-    "count": 1,
+    "count": 2,
     "difficulty": 0,
     "question": "What is key in React?"
   },
@@ -91,31 +91,31 @@
   },
   {
     "number": "E16",
-    "count": 2,
+    "count": 1,
     "difficulty": 1,
     "question": "What is state in React?"
   },
   {
     "number": "E17",
-    "count": 0,
+    "count": 1,
     "difficulty": 0,
     "question": "Explain props in React."
   },
   {
     "number": "E18",
-    "count": 1,
+    "count": 2,
     "difficulty": 0,
     "question": "What is higher-order component in React?"
   },
   {
     "number": "E19",
-    "count": 2,
+    "count": 1,
     "difficulty": 0,
     "question": "Explain the difference between functional and class component in React?"
   },
   {
     "number": "E20",
-    "count": 2,
+    "count": 1,
     "difficulty": 0,
     "question": "What is react router?"
   },
@@ -127,13 +127,13 @@
   },
   {
     "number": "E22",
-    "count": 2,
+    "count": 3,
     "difficulty": 0,
     "question": "What is conditional rendering in React?"
   },
   {
     "number": "E23",
-    "count": 3,
+    "count": 4,
     "difficulty": 0,
     "question": "Explain the components of a react-router"
   },
@@ -151,19 +151,19 @@
   },
   {
     "number": "E26",
-    "count": 0,
+    "count": 1,
     "difficulty": 0,
     "question": "Explain the methods used in mounting phase of components."
   },
   {
     "number": "E27",
-    "count": 0,
+    "count": 1,
     "difficulty": 0,
     "question": "What is the use of ref in React?"
   },
   {
     "number": "E28",
-    "count": 2,
+    "count": 5,
     "difficulty": 0,
     "question": "What are hooks in React?"
   },
@@ -199,14 +199,14 @@
   },
   {
     "number": "E34",
-    "count": 1,
+    "count": 2,
     "difficulty": 1,
     "question": "What is prop drilling and its advantages and disadvantages?"
   },
   {
     "number": "E35",
-    "count": 0,
-    "difficulty": 0,
+    "count": 2,
+    "difficulty": 1,
     "question": "What is custom hooks in React?"
   },
   {
@@ -223,8 +223,8 @@
   },
   {
     "number": "E38",
-    "count": 0,
-    "difficulty": 0,
+    "count": 2,
+    "difficulty": 1,
     "question": "What are benefits of using react-redux?"
   },
   {
@@ -241,13 +241,13 @@
   },
   {
     "number": "E41",
-    "count": 1,
+    "count": 3,
     "difficulty": 0,
     "question": "What is Context API?"
   },
   {
     "number": "E42",
-    "count": 1,
+    "count": 3,
     "difficulty": 1,
     "question": "Explain provider and consumer in Context API."
   },
@@ -265,8 +265,8 @@
   },
   {
     "number": "E45",
-    "count": 0,
-    "difficulty": 0,
+    "count": 2,
+    "difficulty": 1,
     "question": "Explain why and how to update state of components using callback."
   },
   {

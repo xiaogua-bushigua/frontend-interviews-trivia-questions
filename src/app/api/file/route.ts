@@ -61,18 +61,32 @@ export const POST = async (req: NextRequest) => {
 export const GET = async (req: NextRequest) => {
 	const url = new URL(req.url);
 	const type = url.searchParams.get('type');
-	const limit = url.searchParams.get('count') || "0";
+	const mode = url.searchParams.get('mode');
+	const limit = url.searchParams.get('count') || '0';
 	try {
 		const filePath = getFilePath(type + '.json');
-		const items = await readJsonFile(filePath);
+		let items = await readJsonFile(filePath);
 		let selectedItems: List[] = [];
 		let selectedNumbers: string[] = [];
 		let writtenItems: List[] = [];
+		// 可用索引数组，用于随机选择不重复的列表项
 		const availableIndices: number[] = Array.from({ length: items.length }, (_, i) => i);
 
 		while (selectedItems.length < Number(limit) && availableIndices.length > 0) {
-			const randomIndex = Math.floor(Math.random() * availableIndices.length);
-			const index = availableIndices.splice(randomIndex, 1)[0];
+			// 每次从 availableIndices 中g根据条件移除一个随机索引。
+			// 更新选中的项的 count 属性（加 1）。
+			// 将选中的项推入 selectedItems，并记录它们的 number（一个标识符）。
+			let index = 0;
+			if (mode === 'default') {
+				const randomIndex = Math.floor(Math.random() * availableIndices.length);
+				index = availableIndices.splice(randomIndex, 1)[0];
+			} else if (mode === 'hardest') {
+				index = availableIndices.sort((a, b) => items[b].difficulty - items[a].difficulty)[0];
+				availableIndices.splice(availableIndices.indexOf(index), 1);
+			} else if (mode === 'rarest') {
+				index = availableIndices.sort((a, b) => items[a].count - items[b].count)[0];
+				availableIndices.splice(availableIndices.indexOf(index), 1);
+			}
 			items[index].count += 1;
 			selectedItems.push(items[index]);
 			selectedNumbers.push(items[index].number);

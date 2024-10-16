@@ -13,7 +13,7 @@ export interface List {
 
 const Content = ({ counts }: { counts: Record<string, number> }) => {
 	const [list, setList] = useState([] as Array<List>);
-	const { type, refreshCounter } = useContext(MyContext);
+	const { type, refreshCounter, mode } = useContext(MyContext);
 
 	const handleDifficulty = async (number: string, type: string) => {
 		setList((prevList) => {
@@ -35,8 +35,8 @@ const Content = ({ counts }: { counts: Record<string, number> }) => {
 		});
 	};
 
-	const fetchData = async (type: string) => {
-		const response = await fetch(`/api/file?type=${type}&count=${counts[type]}`);
+	const fetchData = async (type: string, mode: string) => {
+		const response = await fetch(`/api/file?type=${type}&count=${counts[type]}&mode=${mode}`);
 		const { data } = await response.json();
 		if (data && data.length) {
 			setList(data);
@@ -49,25 +49,25 @@ const Content = ({ counts }: { counts: Record<string, number> }) => {
 		if (data) {
 			setList(JSON.parse(data));
 		} else {
-			fetchData(type);
+			fetchData(type, mode);
 		}
-	}, [type, refreshCounter]);
+	}, [type, refreshCounter, mode]);
 
 	return (
 		<div>
 			<ul>
 				{list.map((item) => (
 					<li className="my-2" key={item.number}>
-						<span className="font-bold p-2 bg-red-200 w-12 inline-block rounded-md mr-2">
+						<span className="font-bold select-none p-2 bg-red-200 w-12 inline-block rounded-md mr-2">
 							{item.number}
 						</span>
 						<button
 							onClick={() => handleDifficulty(item.number, type)}
-							className="bg-slate-500 text-sm hover:bg-slate-700 w-32 text-white font-bold py-2 rounded mr-2"
+							className="bg-slate-500 select-none text-sm hover:bg-slate-700 w-32 text-white font-bold py-2 rounded mr-2"
 						>
 							{'Difficulty: ' + item.difficulty}
 						</button>
-						<span className="mr-2 p-2 text-sm rounded-md w-24 bg-slate-300">
+						<span className="mr-2 p-2 select-none text-sm rounded-md w-24 bg-slate-300">
 							{'Frequency: ' + item.count}
 						</span>
 						<span>{item.question}</span>

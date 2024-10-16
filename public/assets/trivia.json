@@ -7,7 +7,7 @@
   },
   {
     "number": "A2",
-    "count": 4,
+    "count": 5,
     "difficulty": 1,
     "question": "How do you serve a page in multiple languages?"
   },
@@ -19,7 +19,7 @@
   },
   {
     "number": "A4",
-    "count": 6,
+    "count": 8,
     "difficulty": 0,
     "question": "What are data- attributes good for?"
   },
@@ -37,7 +37,7 @@
   },
   {
     "number": "A7",
-    "count": 5,
+    "count": 6,
     "difficulty": 0,
     "question": "Describe the difference between <script>, <script async> and <script defer>."
   },
@@ -49,8 +49,8 @@
   },
   {
     "number": "A9",
-    "count": 2,
-    "difficulty": 0,
+    "count": 5,
+    "difficulty": 1,
     "question": "Why would you use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.  "
   },
   {
@@ -67,13 +67,13 @@
   },
   {
     "number": "A12",
-    "count": 5,
+    "count": 6,
     "difficulty": 0,
     "question": "What are empty elements in HTML?"
   },
   {
     "number": "B1",
-    "count": 5,
+    "count": 6,
     "difficulty": 2,
     "question": "What is CSS selector specificity and how does it work?"
   },
@@ -91,13 +91,13 @@
   },
   {
     "number": "B4",
-    "count": 6,
+    "count": 7,
     "difficulty": 1,
     "question": "Describe z-index and how stacking context is formed."
   },
   {
     "number": "B5",
-    "count": 7,
+    "count": 8,
     "difficulty": 2,
     "question": "Describe Block Formatting Context (BFC) and how it works."
   },
@@ -109,13 +109,13 @@
   },
   {
     "number": "B7",
-    "count": 3,
+    "count": 4,
     "difficulty": 1,
     "question": "Explain CSS sprites, and how you would implement them."
   },
   {
     "number": "B8",
-    "count": 6,
+    "count": 7,
     "difficulty": 1,
     "question": "How would you approach fixing browser-specific styling issues? "
   },
@@ -127,31 +127,31 @@
   },
   {
     "number": "B10",
-    "count": 9,
+    "count": 11,
     "difficulty": 0,
     "question": "What are the different ways to visually hide content (and make it available only for screen readers)?"
   },
   {
     "number": "B11",
-    "count": 6,
+    "count": 7,
     "difficulty": 0,
     "question": "Have you ever used a grid system, and if so, what do you prefer?"
   },
   {
     "number": "B12",
-    "count": 5,
+    "count": 6,
     "difficulty": 0,
     "question": "Have you used or implemented media queries or mobile-specific layouts/CSS?"
   },
   {
     "number": "B13",
-    "count": 4,
+    "count": 5,
     "difficulty": 0,
     "question": "Can you give an example of an @media property other than screen?"
   },
   {
     "number": "B14",
-    "count": 5,
+    "count": 6,
     "difficulty": 0,
     "question": "What are the advantages/disadvantages of using CSS preprocessors?"
   },
@@ -163,19 +163,19 @@
   },
   {
     "number": "B16",
-    "count": 11,
+    "count": 12,
     "difficulty": 0,
     "question": "How would you implement a web design that uses non-standard fonts?"
   },
   {
     "number": "B17",
-    "count": 6,
+    "count": 7,
     "difficulty": 0,
     "question": "Explain how a browser determines what elements match a CSS selector. "
   },
   {
     "number": "B18",
-    "count": 6,
+    "count": 7,
     "difficulty": 1,
     "question": "Describe pseudo-elements and discuss what they are used for."
   },
@@ -193,13 +193,13 @@
   },
   {
     "number": "B21",
-    "count": 6,
+    "count": 7,
     "difficulty": 0,
     "question": "What is the CSS display property and can you give a few examples of its use?"
   },
   {
     "number": "B22",
-    "count": 4,
+    "count": 6,
     "difficulty": 1,
     "question": "What's the difference between block, inline and inline-block?"
   },
@@ -229,13 +229,13 @@
   },
   {
     "number": "B27",
-    "count": 11,
+    "count": 13,
     "difficulty": 0,
     "question": "How is responsive design different from adaptive design?"
   },
   {
     "number": "B28",
-    "count": 4,
+    "count": 5,
     "difficulty": 0,
     "question": "Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?"
   },
@@ -265,13 +265,13 @@
   },
   {
     "number": "C5",
-    "count": 11,
+    "count": 12,
     "difficulty": 0,
     "question": "What are the differences between variables created using let, var or const?"
   },
   {
     "number": "C6",
-    "count": 8,
+    "count": 10,
     "difficulty": 0,
     "question": "What changes have occurred in ES6?"
   },
@@ -289,7 +289,7 @@
   },
   {
     "number": "C9",
-    "count": 9,
+    "count": 10,
     "difficulty": 0,
     "question": "What do you think of AMD (Asynchronous Module Definition) vs CommonJS?"
   },
@@ -319,7 +319,7 @@
   },
   {
     "number": "C14",
-    "count": 5,
+    "count": 6,
     "difficulty": 1,
     "question": "What's a typical use case for anonymous functions?"
   },
@@ -337,7 +337,7 @@
   },
   {
     "number": "C17",
-    "count": 5,
+    "count": 6,
     "difficulty": 1,
     "question": "What's the difference between host objects and native objects?"
   },
@@ -355,7 +355,7 @@
   },
   {
     "number": "C20",
-    "count": 6,
+    "count": 7,
     "difficulty": 0,
     "question": "What's the difference between feature detection, feature inference, and using the UA string?"
   },
@@ -367,7 +367,7 @@
   },
   {
     "number": "C22",
-    "count": 7,
+    "count": 8,
     "difficulty": 2,
     "question": "What are the advantages and disadvantages of using Ajax?"
   },
@@ -379,7 +379,7 @@
   },
   {
     "number": "C24",
-    "count": 3,
+    "count": 5,
     "difficulty": 1,
     "question": "Describe event bubbling."
   },
@@ -391,25 +391,25 @@
   },
   {
     "number": "C26",
-    "count": 7,
+    "count": 8,
     "difficulty": 0,
     "question": "Explain 'hoisting'."
   },
   {
     "number": "C27",
-    "count": 5,
+    "count": 6,
     "difficulty": 0,
     "question": "What's the difference between an 'attribute' and a 'property'?"
   },
   {
     "number": "C28",
-    "count": 9,
+    "count": 10,
     "difficulty": 3,
     "question": "What is 'use strict';? What are the advantages and disadvantages to use it?"
   },
   {
     "number": "C29",
-    "count": 7,
+    "count": 8,
     "difficulty": 1,
     "question": "Why is extending built-in JavaScript objects not a good idea?"
   },
@@ -421,25 +421,25 @@
   },
   {
     "number": "C31",
-    "count": 7,
+    "count": 8,
     "difficulty": 0,
     "question": "What is the difference between == and ===?"
   },
   {
     "number": "C32",
-    "count": 5,
+    "count": 6,
     "difficulty": 0,
     "question": "Explain the same-origin policy with regards to JavaScript."
   },
   {
     "number": "C33",
-    "count": 3,
+    "count": 4,
     "difficulty": 5,
     "question": "Explain what a single page app is."
   },
   {
     "number": "C34",
-    "count": 4,
+    "count": 5,
     "difficulty": 0,
     "question": "Why is it called a Ternary expression, what does the word 'Ternary' indicate?"
   },
@@ -451,13 +451,13 @@
   },
   {
     "number": "C36",
-    "count": 9,
+    "count": 11,
     "difficulty": 1,
     "question": "What is the extent of your experience with Promises and/or their polyfills?"
   },
   {
     "number": "C37",
-    "count": 6,
+    "count": 7,
     "difficulty": 0,
     "question": "Create a for loop that iterates up to 100 while outputting 'fizz' at multiples of 3, 'buzz' at multiples of 5 and 'fizzbuzz' at multiples of 3 and 5."
   },
@@ -469,7 +469,7 @@
   },
   {
     "number": "C39",
-    "count": 5,
+    "count": 6,
     "difficulty": 1,
     "question": "What are the pros and cons of using Promises instead of callbacks?"
   },
@@ -487,7 +487,7 @@
   },
   {
     "number": "C42",
-    "count": 4,
+    "count": 5,
     "difficulty": 3,
     "question": "What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?"
   },
@@ -499,7 +499,7 @@
   },
   {
     "number": "C44",
-    "count": 8,
+    "count": 10,
     "difficulty": 2,
     "question": "How can you achieve immutability in your own code?"
   },
@@ -511,7 +511,7 @@
   },
   {
     "number": "C46",
-    "count": 9,
+    "count": 10,
     "difficulty": 5,
     "question": "Explain the difference between synchronous and asynchronous functions."
   },
@@ -523,13 +523,13 @@
   },
   {
     "number": "C48",
-    "count": 8,
+    "count": 9,
     "difficulty": 0,
     "question": "Can you give an example for destructuring an object or an array?"
   },
   {
     "number": "C49",
-    "count": 9,
+    "count": 11,
     "difficulty": 3,
     "question": "What is event loop? What is the difference between call stack and task queue?"
   },
@@ -541,7 +541,7 @@
   },
   {
     "number": "C51",
-    "count": 4,
+    "count": 5,
     "difficulty": 4,
     "question": "What advantage is there for using the arrow syntax for a method in a constructor?"
   },
@@ -565,13 +565,13 @@
   },
   {
     "number": "C55",
-    "count": 3,
+    "count": 4,
     "difficulty": 0,
     "question": "ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?"
   },
   {
     "number": "C56",
-    "count": 4,
+    "count": 5,
     "difficulty": 1,
     "question": "What is the definition of a higher-order function?"
   }
