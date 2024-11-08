@@ -6,6 +6,7 @@ import Content from './Content';
 const counts = {
 	trivia: 10,
 	react: 5,
+  typescript: 3,
 };
 
 type ContextType = {
@@ -34,7 +35,7 @@ export default function Home() {
 		<main className="flex min-h-screen flex-col p-12">
 			<header className="flex justify-between">
 				<div>
-					<span className="font-semibold">Types: </span>
+					<span className="font-semibold text-lg">Types: </span>
 					<button
 						onClick={() => handleGeneration('trivia')}
 						className={`${
@@ -51,9 +52,17 @@ export default function Home() {
 					>
 						React
 					</button>
+					<button
+						onClick={() => handleGeneration('typescript')}
+						className={`${
+							state.type === 'typescript' ? 'bg-blue-500' : 'bg-gray-500'
+						} inline-block hover:bg-blue-700 mb-2 text-white font-bold py-2 px-4 rounded w-32`}
+					>
+						Typescript
+					</button>
 				</div>
 				<div onClick={handleClickMode}>
-					<span className="font-semibold">Refresh Modes: </span>
+					<span className="font-semibold text-lg">Refresh Modes: </span>
 					<button
 						className={`${
 							state.mode === 'default' ? 'bg-purple-500' : 'bg-gray-500'

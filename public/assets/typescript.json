@@ -1,0 +1,122 @@
+[
+	{
+		"number": "G1",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What is TypeScript and how does it differ from JavaScript?"
+	},
+	{
+		"number": "G2",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are the benefits of using TypeScript?"
+	},
+	{
+		"number": "G3",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are interfaces and type in TypeScript?"
+	},
+	{
+		"number": "G4",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are the differences between type and interface?"
+	},
+	{
+		"number": "G5",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are generics and how to use them in TypeScript?"
+	},
+	{
+		"number": "G6",
+		"count": 0,
+		"difficulty": 0,
+		"question": "How to declare an array in TypeScript?"
+	},
+	{
+		"number": "G7",
+		"count": 0,
+		"difficulty": 0,
+		"question": "How do you create a new type using a subset of an interface?"
+	},
+	{
+		"number": "G8",
+		"count": 0,
+		"difficulty": 0,
+		"question": "How do enum work in TypeScript?"
+	},
+	{
+		"number": "G9",
+		"count": 0,
+		"difficulty": 0,
+		"question": "When do you use a return type of never and how does it differ from void?"
+	},
+	{
+		"number": "G10",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What access modifiers are supported by TypeScript?"
+	},
+	{
+		"number": "G11",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What is any type, and when to use it?"
+	},
+	{
+		"number": "G12",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What is an unknown type, and when to use it in TypeScript?"
+	},
+	{
+		"number": "G13",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are intersection types and union types in TypeScript? "
+	},
+	{
+		"number": "G14",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What is parameter destructuring?"
+	},
+	{
+		"number": "G15",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What is the purpose of the tsconfig.json file?"
+	},
+	{
+		"number": "G16",
+		"count": 0,
+		"difficulty": 0,
+		"question": "Explain the TypeScript class syntax."
+	},
+	{
+		"number": "G17",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are type assertions in TypeScript?"
+	},
+	{
+		"number": "G18",
+		"count": 0,
+		"difficulty": 0,
+		"question": "What are type aliases? How do you create one?"
+	},
+	{
+		"number": "G19",
+		"count": 0,
+		"difficulty": 0,
+		"question": "How to specify optional properties in TypeScript?"
+	},
+	{
+		"number": "G20",
+		"count": 0,
+		"difficulty": 0,
+		"question": "How to make object properties immutable in TypeScript?"
+	}
+]

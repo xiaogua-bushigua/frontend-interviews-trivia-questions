@@ -1,278 +1,278 @@
 [
-  {
-    "number": "E1",
-    "count": 0,
-    "difficulty": 0,
-    "question": "What are the essential skills for a ReactJS development professional?"
-  },
-  {
-    "number": "E2",
-    "count": 1,
-    "difficulty": 0,
-    "question": "What are you most excited about doing in ReactJS?"
-  },
-  {
-    "number": "E3",
-    "count": 3,
-    "difficulty": 1,
-    "question": "What is ReactJS?"
-  },
-  {
-    "number": "E4",
-    "count": 2,
-    "difficulty": 1,
-    "question": "Explain the MVC architecture."
-  },
-  {
-    "number": "E5",
-    "count": 0,
-    "difficulty": 0,
-    "question": "Explain props and state in React with differences."
-  },
-  {
-    "number": "E6",
-    "count": 0,
-    "difficulty": 0,
-    "question": "What are components and their type in React?"
-  },
-  {
-    "number": "E7",
-    "count": 5,
-    "difficulty": 0,
-    "question": "What is JSX?"
-  },
-  {
-    "number": "E8",
-    "count": 1,
-    "difficulty": 0,
-    "question": "Can web browsers read JSX directly?"
-  },
-  {
-    "number": "E9",
-    "count": 4,
-    "difficulty": 0,
-    "question": "What is the virtual DOM?"
-  },
-  {
-    "number": "E10",
-    "count": 2,
-    "difficulty": 1,
-    "question": "Why use React instead of other frameworks?/ What’s the advantages of React?"
-  },
-  {
-    "number": "E11",
-    "count": 0,
-    "difficulty": 0,
-    "question": "How do you create a React app?"
-  },
-  {
-    "number": "E12",
-    "count": 0,
-    "difficulty": 0,
-    "question": "How to create an event in React?"
-  },
-  {
-    "number": "E13",
-    "count": 2,
-    "difficulty": 0,
-    "question": "What is key in React?"
-  },
-  {
-    "number": "E14",
-    "count": 1,
-    "difficulty": 0,
-    "question": "How to write a comment in React?"
-  },
-  {
-    "number": "E15",
-    "count": 0,
-    "difficulty": 0,
-    "question": "Explain the use of render method in React."
-  },
-  {
-    "number": "E16",
-    "count": 1,
-    "difficulty": 1,
-    "question": "What is state in React?"
-  },
-  {
-    "number": "E17",
-    "count": 1,
-    "difficulty": 0,
-    "question": "Explain props in React."
-  },
-  {
-    "number": "E18",
-    "count": 2,
-    "difficulty": 0,
-    "question": "What is higher-order component in React?"
-  },
-  {
-    "number": "E19",
-    "count": 1,
-    "difficulty": 0,
-    "question": "Explain the difference between functional and class component in React?"
-  },
-  {
-    "number": "E20",
-    "count": 1,
-    "difficulty": 0,
-    "question": "What is react router?"
-  },
-  {
-    "number": "E21",
-    "count": 0,
-    "difficulty": 0,
-    "question": "Explain one way data binding in React?"
-  },
-  {
-    "number": "E22",
-    "count": 3,
-    "difficulty": 0,
-    "question": "What is conditional rendering in React?"
-  },
-  {
-    "number": "E23",
-    "count": 4,
-    "difficulty": 0,
-    "question": "Explain the components of a react-router"
-  },
-  {
-    "number": "E24",
-    "count": 3,
-    "difficulty": 0,
-    "question": "What is this.setState function in React?"
-  },
-  {
-    "number": "E25",
-    "count": 2,
-    "difficulty": 0,
-    "question": "Explain the lifecycle methods of components."
-  },
-  {
-    "number": "E26",
-    "count": 1,
-    "difficulty": 0,
-    "question": "Explain the methods used in mounting phase of components."
-  },
-  {
-    "number": "E27",
-    "count": 1,
-    "difficulty": 0,
-    "question": "What is the use of ref in React?"
-  },
-  {
-    "number": "E28",
-    "count": 5,
-    "difficulty": 0,
-    "question": "What are hooks in React?"
-  },
-  {
-    "number": "E29",
-    "count": 1,
-    "difficulty": 0,
-    "question": "Explain the useState hook in React."
-  },
-  {
-    "number": "E30",
-    "count": 0,
-    "difficulty": 0,
-    "question": "Explain the useEffect hook in react?"
-  },
-  {
-    "number": "E31",
-    "count": 2,
-    "difficulty": 0,
-    "question": "What is React Fragments?"
-  },
-  {
-    "number": "E32",
-    "count": 2,
-    "difficulty": 0,
-    "question": "What is a react developer tool?"
-  },
-  {
-    "number": "E33",
-    "count": 0,
-    "difficulty": 0,
-    "question": "How to use styles in React?"
-  },
-  {
-    "number": "E34",
-    "count": 2,
-    "difficulty": 1,
-    "question": "What is prop drilling and its advantages and disadvantages?"
-  },
-  {
-    "number": "E35",
-    "count": 2,
-    "difficulty": 1,
-    "question": "What is custom hooks in React?"
-  },
-  {
-    "number": "E36",
-    "count": 1,
-    "difficulty": 0,
-    "question": "How to optimize the performance in React?"
-  },
-  {
-    "number": "E37",
-    "count": 2,
-    "difficulty": 2,
-    "question": "What is react-redux?"
-  },
-  {
-    "number": "E38",
-    "count": 2,
-    "difficulty": 1,
-    "question": "What are benefits of using react-redux?"
-  },
-  {
-    "number": "E39",
-    "count": 3,
-    "difficulty": 1,
-    "question": "Explain the core components of react-redux?"
-  },
-  {
-    "number": "E40",
-    "count": 0,
-    "difficulty": 0,
-    "question": "How can we combine multiple reducers in React?"
-  },
-  {
-    "number": "E41",
-    "count": 3,
-    "difficulty": 0,
-    "question": "What is Context API?"
-  },
-  {
-    "number": "E42",
-    "count": 3,
-    "difficulty": 1,
-    "question": "Explain provider and consumer in Context API."
-  },
-  {
-    "number": "E43",
-    "count": 2,
-    "difficulty": 0,
-    "question": "Explain CORS in React."
-  },
-  {
-    "number": "E44",
-    "count": 2,
-    "difficulty": 1,
-    "question": "What is axios and how to use it in React?"
-  },
-  {
-    "number": "E45",
-    "count": 2,
-    "difficulty": 1,
-    "question": "Explain why and how to update state of components using callback."
-  },
-  {
-    "number": "E46",
-    "count": 0,
-    "difficulty": 0,
-    "question": "What are the features/building blocks of React?"
-  }
+	{
+		"number": "E1",
+		"count": 3,
+		"difficulty": 0,
+		"question": "What are the essential skills for a ReactJS development professional?"
+	},
+	{
+		"number": "E2",
+		"count": 3,
+		"difficulty": 0,
+		"question": "What are you most excited about doing in ReactJS?"
+	},
+	{
+		"number": "E3",
+		"count": 6,
+		"difficulty": 1,
+		"question": "What is ReactJS?"
+	},
+	{
+		"number": "E4",
+		"count": 5,
+		"difficulty": 1,
+		"question": "Explain the MVC architecture."
+	},
+	{
+		"number": "E5",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Explain props and state in React with differences."
+	},
+	{
+		"number": "E6",
+		"count": 3,
+		"difficulty": 0,
+		"question": "What are components and their type in React?"
+	},
+	{
+		"number": "E7",
+		"count": 6,
+		"difficulty": 0,
+		"question": "What is JSX?"
+	},
+	{
+		"number": "E8",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Can web browsers read JSX directly?"
+	},
+	{
+		"number": "E9",
+		"count": 4,
+		"difficulty": 0,
+		"question": "What is the virtual DOM?"
+	},
+	{
+		"number": "E10",
+		"count": 6,
+		"difficulty": 1,
+		"question": "Why use React instead of other frameworks?/ What’s the advantages of React?"
+	},
+	{
+		"number": "E11",
+		"count": 3,
+		"difficulty": 0,
+		"question": "How do you create a React app?"
+	},
+	{
+		"number": "E12",
+		"count": 3,
+		"difficulty": 0,
+		"question": "How to create an event in React?"
+	},
+	{
+		"number": "E13",
+		"count": 4,
+		"difficulty": 0,
+		"question": "What is key in React?"
+	},
+	{
+		"number": "E14",
+		"count": 3,
+		"difficulty": 0,
+		"question": "How to write a comment in React?"
+	},
+	{
+		"number": "E15",
+		"count": 3,
+		"difficulty": 1,
+		"question": "Explain the use of render method in React."
+	},
+	{
+		"number": "E16",
+		"count": 4,
+		"difficulty": 1,
+		"question": "What is state in React?"
+	},
+	{
+		"number": "E17",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Explain props in React."
+	},
+	{
+		"number": "E18",
+		"count": 4,
+		"difficulty": 0,
+		"question": "What is higher-order component in React?"
+	},
+	{
+		"number": "E19",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Explain the difference between functional and class component in React?"
+	},
+	{
+		"number": "E20",
+		"count": 3,
+		"difficulty": 0,
+		"question": "What is react router?"
+	},
+	{
+		"number": "E21",
+		"count": 3,
+		"difficulty": 0,
+		"question": "Explain one way data binding in React?"
+	},
+	{
+		"number": "E22",
+		"count": 5,
+		"difficulty": 0,
+		"question": "What is conditional rendering in React?"
+	},
+	{
+		"number": "E23",
+		"count": 7,
+		"difficulty": 0,
+		"question": "Explain the components of a react-router"
+	},
+	{
+		"number": "E24",
+		"count": 6,
+		"difficulty": 1,
+		"question": "What is this.setState function in React?"
+	},
+	{
+		"number": "E25",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Explain the lifecycle methods of components."
+	},
+	{
+		"number": "E26",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Explain the methods used in mounting phase of components."
+	},
+	{
+		"number": "E27",
+		"count": 3,
+		"difficulty": 1,
+		"question": "What is the use of ref in React?"
+	},
+	{
+		"number": "E28",
+		"count": 5,
+		"difficulty": 0,
+		"question": "What are hooks in React?"
+	},
+	{
+		"number": "E29",
+		"count": 3,
+		"difficulty": 0,
+		"question": "Explain the useState hook in React."
+	},
+	{
+		"number": "E30",
+		"count": 2,
+		"difficulty": 0,
+		"question": "Explain the useEffect hook in react?"
+	},
+	{
+		"number": "E31",
+		"count": 3,
+		"difficulty": 0,
+		"question": "What is React Fragments?"
+	},
+	{
+		"number": "E32",
+		"count": 4,
+		"difficulty": 0,
+		"question": "What is a react developer tool?"
+	},
+	{
+		"number": "E33",
+		"count": 3,
+		"difficulty": 0,
+		"question": "How to use styles in React?"
+	},
+	{
+		"number": "E34",
+		"count": 4,
+		"difficulty": 1,
+		"question": "What is prop drilling and its advantages and disadvantages?"
+	},
+	{
+		"number": "E35",
+		"count": 3,
+		"difficulty": 2,
+		"question": "What is custom hooks in React?"
+	},
+	{
+		"number": "E36",
+		"count": 3,
+		"difficulty": 1,
+		"question": "How to optimize the performance in React?"
+	},
+	{
+		"number": "E37",
+		"count": 3,
+		"difficulty": 2,
+		"question": "What is react-redux?"
+	},
+	{
+		"number": "E38",
+		"count": 7,
+		"difficulty": 2,
+		"question": "What are benefits of using react-redux?"
+	},
+	{
+		"number": "E39",
+		"count": 6,
+		"difficulty": 1,
+		"question": "Explain the core components of react-redux?"
+	},
+	{
+		"number": "E40",
+		"count": 2,
+		"difficulty": 0,
+		"question": "How can we combine multiple reducers in React?"
+	},
+	{
+		"number": "E41",
+		"count": 6,
+		"difficulty": 0,
+		"question": "What is Context API?"
+	},
+	{
+		"number": "E42",
+		"count": 4,
+		"difficulty": 1,
+		"question": "Explain provider and consumer in Context API."
+	},
+	{
+		"number": "E43",
+		"count": 3,
+		"difficulty": 0,
+		"question": "Explain CORS in React."
+	},
+	{
+		"number": "E44",
+		"count": 2,
+		"difficulty": 1,
+		"question": "What is axios and how to use it in React?"
+	},
+	{
+		"number": "E45",
+		"count": 2,
+		"difficulty": 1,
+		"question": "Explain why and how to update state of components using callback."
+	},
+	{
+		"number": "E46",
+		"count": 2,
+		"difficulty": 0,
+		"question": "What are the features/building blocks of React?"
+	}
 ]
