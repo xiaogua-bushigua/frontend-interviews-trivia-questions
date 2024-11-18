@@ -4,9 +4,10 @@ import { createContext, useState } from 'react';
 import Content from './Content';
 
 const counts = {
-	trivia: 10,
-	react: 5,
+	trivia: 8,
+	react: 4,
   typescript: 3,
+  supply: 2
 };
 
 type ContextType = {
@@ -56,9 +57,17 @@ export default function Home() {
 						onClick={() => handleGeneration('typescript')}
 						className={`${
 							state.type === 'typescript' ? 'bg-blue-500' : 'bg-gray-500'
-						} inline-block hover:bg-blue-700 mb-2 text-white font-bold py-2 px-4 rounded w-32`}
+						} inline-block hover:bg-blue-700 mb-2 text-white font-bold py-2 px-4 rounded w-32 mx-4`}
 					>
 						Typescript
+					</button>
+					<button
+						onClick={() => handleGeneration('supply')}
+						className={`${
+							state.type === 'supply' ? 'bg-blue-500' : 'bg-gray-500'
+						} inline-block hover:bg-blue-700 mb-2 text-white font-bold py-2 px-4 rounded w-32`}
+					>
+						Supply
 					</button>
 				</div>
 				<div onClick={handleClickMode}>

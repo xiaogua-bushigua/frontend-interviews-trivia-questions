@@ -1,0 +1,86 @@
+[
+  {
+    "number": "H1",
+    "count": 1,
+    "difficulty": 0,
+    "question": "What’s the difference between Event Propagation, Event Capturing and Event Bubbling?"
+  },
+  {
+    "number": "H2",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What’s the difference between event.preventDefault() and event.stopPropagation()?"
+  },
+  {
+    "number": "H3",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What’s the difference between event.target and event.currentTarget?"
+  },
+  {
+    "number": "H4",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What does the !! operator do?"
+  },
+  {
+    "number": "H5",
+    "count": 0,
+    "difficulty": 0,
+    "question": "Why are functions called First-class Objects?"
+  },
+  {
+    "number": "H6",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What is the arguments object?"
+  },
+  {
+    "number": "H7",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What is ECMAScript?"
+  },
+  {
+    "number": "H8",
+    "count": 1,
+    "difficulty": 0,
+    "question": "What is the Set object and how does it work?"
+  },
+  {
+    "number": "H9",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What is a Callback function?"
+  },
+  {
+    "number": "H10",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What is async/await and How does it work?"
+  },
+  {
+    "number": "H11",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What is NaN? and How to check if a value is NaN?"
+  },
+  {
+    "number": "H12",
+    "count": 0,
+    "difficulty": 0,
+    "question": "Why does typeof null return object?"
+  },
+  {
+    "number": "H13",
+    "count": 0,
+    "difficulty": 0,
+    "question": "How many ways can a function be invoked?"
+  },
+  {
+    "number": "H14",
+    "count": 0,
+    "difficulty": 0,
+    "question": "What does the new keyword do?"
+  }
+]

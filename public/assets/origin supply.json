@@ -7,7 +7,7 @@
   },
   {
     "number": "G2",
-    "count": 2,
+    "count": 1,
     "difficulty": 1,
     "question": "What are the benefits of using TypeScript?"
   },
@@ -85,7 +85,7 @@
   },
   {
     "number": "G15",
-    "count": 2,
+    "count": 1,
     "difficulty": 0,
     "question": "What is the purpose of the tsconfig.json file?"
   },
@@ -115,7 +115,7 @@
   },
   {
     "number": "G20",
-    "count": 2,
+    "count": 1,
     "difficulty": 0,
     "question": "How to make object properties immutable in TypeScript?"
   }
